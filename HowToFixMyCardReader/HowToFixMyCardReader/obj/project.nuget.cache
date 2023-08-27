@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q8UOBVRbQnhLMe1sDwwaKlsetSigx73mxC6y53qbooeLlJDUZb9407sx/0/CKKyEwgvZSQFbYAP715Z4lCfxsg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tulpar\\Desktop\\source\\repos\\HowToFixMyCardRedo\\HowToFixMyCardReader\\HowToFixMyCardReader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tulpar\\.nuget\\packages\\altocontrols\\1.0.1\\altocontrols.1.0.1.nupkg.sha512",
+    "C:\\Users\\Tulpar\\.nuget\\packages\\rjcodeadvance.rjcontrols\\1.0.0\\rjcodeadvance.rjcontrols.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'AltoControls 1.0.1' paketi, proje hedef çerçevesi 'net6.0-windows7.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "AltoControls",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'RJCodeAdvance.RJControls 1.0.0' paketi, proje hedef çerçevesi 'net6.0-windows7.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "RJCodeAdvance.RJControls",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HowToFixMyCliento/1.0.0": {
+        "dependencies": {
+          "AltoControls": "1.0.1",
+          "HtmlAgilityPack": "1.11.46",
+          "RJCodeAdvance.RJControls": "1.0.0"
+        },
+        "runtime": {
+          "HowToFixMyCliento.dll": {}
+        },
+        "resources": {
+          "tr-TR/HowToFixMyCliento.resources.dll": {
+            "locale": "tr-TR"
+          }
+        }
+      },
+      "AltoControls/1.0.1": {
+        "runtime": {
+          "lib/AltoControls.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.46": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.46.0",
+            "fileVersion": "1.11.46.0"
+          }
+        }
+      },
+      "RJCodeAdvance.RJControls/1.0.0": {
+        "runtime": {
+          "lib/net45/RJCodeAdvance.RJControls.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HowToFixMyCliento/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AltoControls/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o2zVpSjsmIX4M92CAEP90cNdkDA/dOWRShDk1nU4AFGa+p2sIbkilyBi5tVXak5gYLxKp4E1rGHbCi92l5VGFA==",
+      "path": "altocontrols/1.0.1",
+      "hashPath": "altocontrols.1.0.1.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dLMn4EVfJBHWmWK4Uh0XGD76FPLHI0qr2Tm0s1m/xmgiHb1JUb9zB8AzO8HtrkBBlMN6JfCUBYddhqC0hZNR+g==",
+      "path": "htmlagilitypack/1.11.46",
+      "hashPath": "htmlagilitypack.1.11.46.nupkg.sha512"
+    },
+    "RJCodeAdvance.RJControls/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O+drkZ7lKfMdRRgXKiy2Z/ENhU5Ee2j2mXSzHWwEN2thtRDrWjoUpUvUm9gSFX8susKj1yeVmtMG3qYeNBvmBw==",
+      "path": "rjcodeadvance.rjcontrols/1.0.0",
+      "hashPath": "rjcodeadvance.rjcontrols.1.0.0.nupkg.sha512"
+    }
+  }
+}

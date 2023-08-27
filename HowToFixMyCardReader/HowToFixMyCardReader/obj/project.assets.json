@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "AltoControls/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/AltoControls.dll": {}
+        },
+        "runtime": {
+          "lib/AltoControls.dll": {}
+        }
+      },
+      "RJCodeAdvance.RJControls/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/RJCodeAdvance.RJControls.dll": {}
+        },
+        "runtime": {
+          "lib/net45/RJCodeAdvance.RJControls.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AltoControls/1.0.1": {
+      "sha512": "o2zVpSjsmIX4M92CAEP90cNdkDA/dOWRShDk1nU4AFGa+p2sIbkilyBi5tVXak5gYLxKp4E1rGHbCi92l5VGFA==",
+      "type": "package",
+      "path": "altocontrols/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "altocontrols.1.0.1.nupkg.sha512",
+        "altocontrols.nuspec",
+        "lib/AltoControls.dll"
+      ]
+    },
+    "RJCodeAdvance.RJControls/1.0.0": {
+      "sha512": "O+drkZ7lKfMdRRgXKiy2Z/ENhU5Ee2j2mXSzHWwEN2thtRDrWjoUpUvUm9gSFX8susKj1yeVmtMG3qYeNBvmBw==",
+      "type": "package",
+      "path": "rjcodeadvance.rjcontrols/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/RJCodeAdvance.RJControls.dll",
+        "rjcodeadvance.rjcontrols.1.0.0.nupkg.sha512",
+        "rjcodeadvance.rjcontrols.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "AltoControls >= 1.0.1",
+      "RJCodeAdvance.RJControls >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Tulpar\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Tulpar\\Desktop\\source\\repos\\HowToFixMyCardRedo\\HowToFixMyCardReader\\HowToFixMyCardReader.csproj",
+      "projectName": "HowToFixMyCardReader",
+      "projectPath": "C:\\Users\\Tulpar\\Desktop\\source\\repos\\HowToFixMyCardRedo\\HowToFixMyCardReader\\HowToFixMyCardReader.csproj",
+      "packagesPath": "C:\\Users\\Tulpar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tulpar\\Desktop\\source\\repos\\HowToFixMyCardRedo\\HowToFixMyCardReader\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Tulpar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "AltoControls": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
+          "RJCodeAdvance.RJControls": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'AltoControls 1.0.1' paketi, proje hedef çerçevesi 'net6.0-windows7.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "AltoControls",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'RJCodeAdvance.RJControls 1.0.0' paketi, proje hedef çerçevesi 'net6.0-windows7.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "RJCodeAdvance.RJControls",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
